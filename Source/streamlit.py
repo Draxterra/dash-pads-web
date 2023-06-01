@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler,MinMaxScaler
 from sklearn.preprocessing import LabelEncoder
 import plotly.express as px
 
+
 def loadData():
 	df = pd.read_csv("data_car.csv")
 	return df
